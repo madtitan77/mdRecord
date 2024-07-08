@@ -1,15 +1,10 @@
-<addon id="madtitan.mdrecord.id" name="MDRecord" version="1.0" provider-name="MadTitan">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
+<addon id="madtitan.mdrecord.id" version="1.0" name="My Recording Addon" provider-name="YourName">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">MDRecord - Stream Recording Addon</summary>
-        <description lang="en_GB">This addon allows users to record streaming video content with the press of a button.</description>
+        <summary lang="en">My Recording Addon</summary>
+        <description lang="en">This addon allows users to record video.</description>
         <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <source>https://github.com/madtitan77/mdrecord</source>
     </extension>
 </addon>
